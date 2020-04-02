@@ -25,7 +25,7 @@ public class CollectionsFrameWork {
         for(String item: fruit){
             System.out.println(item);
         }
-        
+
         fruit.forEach(x -> System.out.println(x)); //takes lamda expression
     }
 }

@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="851f7b60-8a67-480a-8869-eaaf66460e73" name="Default Changelist" comment="" />
+    <list default="true" id="851f7b60-8a67-480a-8869-eaaf66460e73" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/TestAutomation/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/TestAutomation/StudentTester.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/TestCases/Calculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/CalculatorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/TestAll.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/TestAutomation/CollectionsFrameWork.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TestAutomation/CollectionsFrameWork.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/TestAutomation/CollectionsFrameWork.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/TestAutomation/CollectionsFrameWork.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,6 +25,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
       <MavenImportingSettings>
@@ -23,6 +36,7 @@
     </option>
   </component>
   <component name="ProjectId" id="1Zw4gebiBjMz1WWtV8yrdUK6PDD" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -31,83 +45,65 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
-  <component name="RunManager" selected="Application.CollectionsFrameWork">
-    <configuration name="Abstraction" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="TestAutomation.Abstraction" />
+  <component name="RunManager" selected="JUnit.CalculatorTest.sinTest">
+    <configuration name="All in Testautomation" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Testautomation" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="TestAutomation.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CollectionsFrameWork" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="TestAutomation.CollectionsFrameWork" />
+    <configuration name="CalculatorTest.exponentTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Testautomation" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="TestAutomation.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="CalculatorTest" />
+      <option name="METHOD_NAME" value="exponentTest" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Customer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="TestAutomation.Customer" />
+    <configuration name="CalculatorTest.sinTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Testautomation" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="TestAutomation.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="CalculatorTest" />
+      <option name="METHOD_NAME" value="sinTest" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OverrideTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="TestAutomation.OverrideTest" />
+    <configuration name="CalculatorTest.squareRootTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Testautomation" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="TestAutomation.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="CalculatorTest" />
+      <option name="METHOD_NAME" value="squareRootTest" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Polymorphism" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="TestAutomation.Polymorphism" />
+    <configuration name="TestAll" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Testautomation" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="TestAutomation.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestAll" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.CollectionsFrameWork" />
-        <item itemvalue="Application.Customer" />
-        <item itemvalue="Application.Abstraction" />
-        <item itemvalue="Application.Polymorphism" />
-        <item itemvalue="Application.OverrideTest" />
+        <item itemvalue="JUnit.CalculatorTest.sinTest" />
+        <item itemvalue="JUnit.CalculatorTest.squareRootTest" />
+        <item itemvalue="JUnit.TestAll" />
+        <item itemvalue="JUnit.All in Testautomation" />
+        <item itemvalue="JUnit.CalculatorTest.exponentTest" />
       </list>
     </recent_temporary>
   </component>
@@ -125,33 +121,37 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="653" y="24" key="#com.intellij.ide.util.MemberChooser" timestamp="1585743965282">
+    <state x="653" y="24" key="#com.intellij.ide.util.MemberChooser" timestamp="1585754717932">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="653" y="24" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680@0.0.1280.680" timestamp="1585743965282" />
-    <state width="808" height="160" key="GridCell.Tab.0.bottom" timestamp="1585745115307">
+    <state x="653" y="24" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680@0.0.1280.680" timestamp="1585754717932" />
+    <state width="1237" height="167" key="GridCell.Tab.0.bottom" timestamp="1585840429329">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="808" height="160" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1585745115307" />
-    <state width="808" height="160" key="GridCell.Tab.0.center" timestamp="1585745115306">
+    <state width="1237" height="167" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1585840429329" />
+    <state width="1237" height="167" key="GridCell.Tab.0.center" timestamp="1585840429328">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="808" height="160" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1585745115306" />
-    <state width="808" height="160" key="GridCell.Tab.0.left" timestamp="1585745115305">
+    <state width="1237" height="167" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1585840429328" />
+    <state width="1237" height="167" key="GridCell.Tab.0.left" timestamp="1585840429328">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="808" height="160" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1585745115305" />
-    <state width="808" height="160" key="GridCell.Tab.0.right" timestamp="1585745115306">
+    <state width="1237" height="167" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1585840429328" />
+    <state width="1237" height="167" key="GridCell.Tab.0.right" timestamp="1585840429329">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="808" height="160" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1585745115306" />
-    <state x="242" y="0" key="SettingsEditor" timestamp="1585738754567">
+    <state width="1237" height="167" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1585840429329" />
+    <state x="242" y="0" key="SettingsEditor" timestamp="1585835125889">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="242" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1585738754567" />
+    <state x="242" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1585835125889" />
     <state x="337" y="165" key="com.intellij.ide.util.TipDialog" timestamp="1585736938348">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="337" y="165" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1585736938348" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Testautomation$TestAll.ic" NAME="TestAll Coverage Results" MODIFIED="1585839240457" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/Testautomation$All_in_Testautomation.ic" NAME="All in Testautomation Coverage Results" MODIFIED="1585838034217" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>
