@@ -38,13 +38,10 @@ public class ClassroomTester {
         Student[] students = {student1,student2};
         Classroom classroom = new Classroom(students);
 
-
-        Double expected = 125.0;
         Double actual = classroom.getAverageExamScore();
 
         System.out.println(actual);
 
-        //Assert.assertEquals(expected, actual);
     }
 
     @Test
@@ -57,23 +54,42 @@ public class ClassroomTester {
 
         Student[] preEnrollment = classroom.getStudents();
         String preEnrollmentAsString = Arrays.toString(preEnrollment);
-        classroom.addStudent(student);
-        Student[] postEnrollment = classroom.getStudents();
 
+        classroom.addStudent(student);
+
+        Student[] postEnrollment = classroom.getStudents();
         String postEnrollmentAsString = Arrays.toString(postEnrollment);
 
-        String expected1 = "[]";
-        String expected2 = "[Student Name: Ondia Brown\n" +
-                "Average Score: 125\n" +
-                "Exam Scores:\n" +
-                " \tExam 1 -> 75.0\n" +
-                " \tExam 2 -> 100.0\n" +
-                " \tExam 3 -> 67.0\n" +
-                " \tExam 4 -> 73.0]";
 
         System.out.println("===========================");
         System.out.println(preEnrollmentAsString);
         System.out.println("===========================");
         System.out.println(postEnrollmentAsString);
     }
+
+    @Test
+    public void removeStudentTest(){
+        int maxNumberOfStudents = 1;
+        Classroom classroom = new Classroom(maxNumberOfStudents);
+
+        Double[] examScores = { 75.0, 100.0, 67.0, 73.0 };
+
+        Student student2 = new Student("Brown", "Ondia", examScores);
+
+        Student[] preEnrollment = classroom.getStudents();
+        String preEnrollmentAsString = Arrays.toString(preEnrollment);
+
+        classroom.removeStudent(student2);
+
+        Student[] postEnrollment = classroom.getStudents();
+        String postEnrollmentAsString = Arrays.toString(postEnrollment);
+
+        System.out.println("===========================");
+        System.out.println(preEnrollmentAsString);
+        System.out.println("===========================");
+        System.out.println(postEnrollmentAsString);
+    }
+
+
+
 }

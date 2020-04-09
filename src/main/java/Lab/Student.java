@@ -15,22 +15,6 @@ public class Student {
         this.examScores = new ArrayList<>(Arrays.asList(examScores));
     }
 
-    public String getFirstName() {
-        return firstName;
-    }
-
-    public void setFirstName(String firstName) {
-        this.firstName = firstName;
-    }
-
-    public String getLastName() {
-        return lastName;
-    }
-
-    public void setLastName(String lastName) {
-        this.lastName = lastName;
-    }
-
     public String getExamScores() {
         String scores = "Exam scores:\n";
         for(int x = 0; x <examScores.size(); x++){
@@ -41,13 +25,16 @@ public class Student {
         return scores;
     }
 
-    public void setExamScores(int evanNumber, double newScore) {
+    public double setExamScores(int evanNumber, double newScore) {
         examScores.remove(evanNumber - 1);
         examScores.add(evanNumber - 1, newScore);
+        return newScore;
     }
 
-    public void addExamScore(double examScore){
+    public String addExamScore(double examScore){
+        String scores = "Exam scores:\n";
         examScores.add(examScore);
+        return scores;
     }
 
     public double getAverageExamScore(){

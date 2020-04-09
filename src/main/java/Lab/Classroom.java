@@ -34,18 +34,32 @@ public class Classroom {
     }
 
     public void addStudent(Student student) {
-        boolean inserted = false;
+        boolean added = false;
         for (int i = 0; i < students.length; i++) {
             if (students[i] == null) {
                 students[i] = student;
-                inserted = true;
+                added = true;
                 break;
             }
         }
-        if (!inserted) {
+        if (!added) {
             Student[] tempArray = Arrays.copyOf(students, students.length + 1);
             tempArray[tempArray.length - 1] = student;
         }
     }
 
+    public void removeStudent(Student student) {
+        boolean remove = false;
+        for (int i = 0; i < students.length; i++) {
+            if (students[i] == student) {
+                students[i] = null;
+                remove = true;
+                break;
+            }
+        }
+        if(remove){
+            Student[] tempArray = Arrays.copyOf(students, students.length - 1);
+            tempArray[tempArray.length + 1] = student;
+        }
+    }
 }

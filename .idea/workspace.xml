@@ -2,20 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="851f7b60-8a67-480a-8869-eaaf66460e73" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Lab/Classroom.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Lab/ClassroomTestMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Lab/StudentTestMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/hashdemo/HashMaps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ClassroomTester.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/StudentTester.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/TestAllStudentTester.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Maven.PhoneBook" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/PhoneBookLab/PhoneBook.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/AddAllTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ConstructorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/GetAllContactNames.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/RemoveTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ReverseLookUp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/PhoneBookLab/PhoneBook.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/TestAutomation/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Lab/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/TestAutomation/StudentTester.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/TestAll.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestAll.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/TestAutomation/Student.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/TestAutomation/StudentTester.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/TestAll.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/TestAll.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Lab/Classroom.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Lab/Classroom.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Lab/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Lab/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ClassroomTester.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ClassroomTester.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/StudentTester.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/StudentTester.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Lab/Classroom.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Lab/Classroom.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Lab/ClassroomTestMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Lab/ClassroomTestMain.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Lab/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Lab/Student.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Lab/StudentTestMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Lab/StudentTestMain.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/ClassroomTester.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/ClassroomTester.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/StudentTester.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/StudentTester.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,58 +60,49 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
-  <component name="RunManager" selected="Application.ClassroomTestMain">
-    <configuration name="ClassroomTestMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lab.ClassroomTestMain" />
-      <module name="Testautomation" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Lab.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="StudentTestMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lab.StudentTestMain" />
-      <module name="Testautomation" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Lab.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ClassroomTester.addStudentTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.AddAllTest">
+    <configuration name="AddAllTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Testautomation" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ClassroomTester" />
-      <option name="METHOD_NAME" value="addStudentTest" />
+      <option name="MAIN_CLASS_NAME" value="AddAllTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AddAllTest.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Testautomation" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="AddAllTest" />
+      <option name="METHOD_NAME" value="test1" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ClassroomTester.getAverageExamScoreTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ConstructorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Testautomation" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ClassroomTester" />
-      <option name="METHOD_NAME" value="getAverageExamScoreTest" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="MAIN_CLASS_NAME" value="ConstructorTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StudentTester.getAverageTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="RemoveTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Testautomation" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="StudentTester" />
-      <option name="METHOD_NAME" value="getAverageTest" />
+      <option name="MAIN_CLASS_NAME" value="RemoveTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReverseLookUp.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Testautomation" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ReverseLookUp" />
+      <option name="METHOD_NAME" value="test1" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -113,11 +110,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ClassroomTestMain" />
-        <item itemvalue="JUnit.ClassroomTester.addStudentTest" />
-        <item itemvalue="JUnit.ClassroomTester.getAverageExamScoreTest" />
-        <item itemvalue="Application.StudentTestMain" />
-        <item itemvalue="JUnit.StudentTester.getAverageTest" />
+        <item itemvalue="JUnit.AddAllTest" />
+        <item itemvalue="JUnit.RemoveTest" />
+        <item itemvalue="JUnit.ReverseLookUp.test1" />
+        <item itemvalue="JUnit.ConstructorTest" />
+        <item itemvalue="JUnit.AddAllTest.test1" />
       </list>
     </recent_temporary>
   </component>
@@ -139,42 +136,46 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="371" y="96" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.0.1280.680@0.0.1280.680" timestamp="1585873055373" />
+    <state x="93" y="93" width="1095" height="495" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1586431747055">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="93" y="93" width="1095" height="495" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1280.680@0.0.1280.680" timestamp="1586431747055" />
     <state x="653" y="24" key="#com.intellij.ide.util.MemberChooser" timestamp="1586193353390">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="653" y="24" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680@0.0.1280.680" timestamp="1586193353390" />
-    <state x="438" y="200" width="404" height="327" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1585865971400">
+    <state x="438" y="200" width="404" height="327" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1586404123901">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="438" y="200" width="404" height="327" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1280.680@0.0.1280.680" timestamp="1585865971400" />
-    <state width="1237" height="148" key="GridCell.Tab.0.bottom" timestamp="1586197412331">
+    <state x="438" y="200" width="404" height="327" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1280.680@0.0.1280.680" timestamp="1586404123901" />
+    <state width="1237" height="2" key="GridCell.Tab.0.bottom" timestamp="1586432438904">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="148" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1586197412331" />
-    <state width="1237" height="148" key="GridCell.Tab.0.center" timestamp="1586197412331">
+    <state width="1237" height="2" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1586432438904" />
+    <state width="1237" height="2" key="GridCell.Tab.0.center" timestamp="1586432438904">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="148" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1586197412331" />
-    <state width="1237" height="148" key="GridCell.Tab.0.left" timestamp="1586197412331">
+    <state width="1237" height="2" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1586432438904" />
+    <state width="1237" height="2" key="GridCell.Tab.0.left" timestamp="1586432438904">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="148" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1586197412331" />
-    <state width="1237" height="148" key="GridCell.Tab.0.right" timestamp="1586197412331">
+    <state width="1237" height="2" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1586432438904" />
+    <state width="1237" height="2" key="GridCell.Tab.0.right" timestamp="1586432438904">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="148" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1586197412331" />
-    <state x="242" y="0" key="SettingsEditor" timestamp="1585835125889">
+    <state width="1237" height="2" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1586432438904" />
+    <state x="242" y="0" key="SettingsEditor" timestamp="1586402353773">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="242" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1585835125889" />
-    <state x="337" y="165" key="com.intellij.ide.util.TipDialog" timestamp="1585865324705">
+    <state x="242" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1586402353773" />
+    <state x="337" y="165" key="com.intellij.ide.util.TipDialog" timestamp="1586401023476">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="337" y="165" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1585865324705" />
-    <state x="383" y="0" key="refactoring.ChangeSignatureDialog" timestamp="1586195817333">
+    <state x="337" y="165" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1586401023476" />
+    <state x="383" y="0" key="refactoring.ChangeSignatureDialog" timestamp="1586356840546">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="383" y="0" key="refactoring.ChangeSignatureDialog/0.0.1280.680@0.0.1280.680" timestamp="1586195817333" />
+    <state x="383" y="0" key="refactoring.ChangeSignatureDialog/0.0.1280.680@0.0.1280.680" timestamp="1586356840546" />
     <state x="-9" y="1" width="672" height="678" key="search.everywhere.popup" timestamp="1585872673431">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
